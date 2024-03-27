@@ -10,7 +10,7 @@ const NotFound = () => {
     <Nav/>
     <div className='pagenotfound'>
         <h1>There is nothing here ...</h1>
-            <img draggable='false' src='../src/PageNotFound/2FFk.gif' alt="" id='notfoundimg' />
+            <img draggable='false' src="https://i.ibb.co/PGHnVVd/2FFk.gif" alt="" id='notfoundimg' />
         </div>
         </>
   )

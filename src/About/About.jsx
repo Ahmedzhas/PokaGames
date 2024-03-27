@@ -3,6 +3,10 @@ import Nav from '../Nav/Nav'
 import useReset from '../PokaGame/useReset'
 import { NavLink } from 'react-router-dom'
 const About = () => {
+  const gamingImg = "https://i.ibb.co/0CySJtk/gaming.gif"
+  const profImg = "https://i.ibb.co/qYZKtCr/12.jpg"
+  const homeImg = "https://i.ibb.co/L1GGDz4/home.gif"
+
   const imgStyle = {
     width:'150px',
     padding:'15px'
@@ -17,12 +21,12 @@ const About = () => {
         <div >
         
         <div className='profpic'>
-        <img draggable='false' style = {imgStyle} src="https://i.ibb.co/qYZKtCr/12.jpg" alt="ProfPic" />
+        <img draggable='false' style = {imgStyle} src={profImg} alt="ProfPic" />
           <NavLink draggable='false' to={'/'}>
-            <img className='homeimage' style = {imgStyle} src="https://i.ibb.co/L1GGDz4/home.gif" alt="House" />
+            <img className='homeimage' style = {imgStyle} src={homeImg} alt="House" />
             </NavLink>
           <NavLink draggable='false' to={'/game'}>
-            <img className='gameimage' style = {imgStyle} src="https://i.ibb.co/0CySJtk/gaming.gif" alt="Controller" />
+            <img className='gameimage' style = {imgStyle} src={gamingImg} alt="Controller" />
             </NavLink>
         </div>
         </div>
