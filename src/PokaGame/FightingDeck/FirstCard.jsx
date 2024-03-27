@@ -3,12 +3,12 @@ import cardContext from '../context/Context'
 const FirstCard = () => {
 
     const {fighterPokemon ,  cards , cardz , isgameover} = useContext(cardContext)
-    const img = '../src/PokaGame/Images/HOLD.gif'
+    const img ="https://i.ibb.co/X5tsB7d/HOLD.gif"
     
   return (
     <>
     { isgameover === false && <main className='fightingcards'>
-        <img draggable='false' className='image' src={fighterPokemon.image || img} alt='' />
+        <img draggable='false' className='image' src={fighterPokemon.image || img} alt='HOLD' />
         <div className='name'>{fighterPokemon.name}</div>
         <div className='power'>{fighterPokemon.power}</div>
     </main>}

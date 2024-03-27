@@ -17,12 +17,12 @@ const About = () => {
         <div >
         
         <div className='profpic'>
-        <img draggable='false' style = {imgStyle} src="../src/PokaGame/Images/12.jpg" alt="" />
+        <img draggable='false' style = {imgStyle} src="https://i.ibb.co/qYZKtCr/12.jpg" alt="ProfPic" />
           <NavLink draggable='false' to={'/'}>
-            <img className='homeimage' style = {imgStyle} src="./src/PokaGame/Images/home.gif" alt="" />
+            <img className='homeimage' style = {imgStyle} src="https://i.ibb.co/L1GGDz4/home.gif" alt="House" />
             </NavLink>
           <NavLink draggable='false' to={'/game'}>
-            <img className='gameimage' style = {imgStyle} src="./src/PokaGame/Images/gaming.gif" alt="" />
+            <img className='gameimage' style = {imgStyle} src="https://i.ibb.co/0CySJtk/gaming.gif" alt="Controller" />
             </NavLink>
         </div>
         </div>
